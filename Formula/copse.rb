@@ -1,7 +1,7 @@
 class Copse < Formula
   desc "TUI for running Claude Code tasks in parallel using git worktrees"
   homepage "https://github.com/daiwahome/copse"
-  url "https://github.com/daiwahome/copse.git", tag: "v0.1.2"
+  url "https://github.com/daiwahome/copse.git", tag: "v0.1.3"
   license "MIT"
 
   bottle do
