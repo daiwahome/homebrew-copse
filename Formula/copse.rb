@@ -5,11 +5,11 @@ class Copse < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/daiwahome/homebrew-copse/releases/download/copse-0.3.1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "d0e513b186a4ccbb10e8d17e89710cb5f89eb7f1f2d7ec74fd78df5c7e7ddf9e"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1ed989d8d4c884625eaf04c5f91a8cdac5da0d917c122c72d3a45fdad3ec9d80"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "9911a87342f4882e84f9b50e104eb3d29dafbf604637888eaf88fa6ce0b85214"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "bffff8b90b54b2391f8d7df44ed38a9b8bf330a7ffbf197a23fb91a3cf101a25"
+    root_url "https://github.com/daiwahome/homebrew-copse/releases/download/copse-0.3.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:   "d37e75021a85ef8233d112adccce50a9553e7d317c9340e945d514b3344ee3f2"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c0996be41b5c94991400c4dd56cbd1d4be65b49bd137403c93ac206b52b4746f"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma:  "19e74fbcaf78822d91ef2873805eaa932a5eee38198bd790604d686dc60af40c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "ba233bcf3f0e0d15edef478ed8fe6c53d5663417055b9e22500e5392e21de5d4"
   end
 
   depends_on "rust" => :build
